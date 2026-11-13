@@ -40,3 +40,7 @@ jekyll serve
 Then open http://localhost:4000.
 
 The settings files (`_config.yml`, `CNAME`, `404.html`, `.gitignore`) have to stay at the top of the repo, because GitHub Pages and git only look for them there.
+
+## Checking the site
+
+Run `bash check-site.sh` to test DNS, the HTTPS certificate, every page and redirect, and the doublehoundgames.com redirect. If the GitHub CLI (`gh`) is installed and signed in, it also shows the Pages settings and GitHub's own domain health check.

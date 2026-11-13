@@ -5,4 +5,5 @@ kramdown:
   auto_ids: true
 exclude:
   - README.md
+  - check-site.sh
 layouts_dir: shared/_layouts
