@@ -1,0 +1,8 @@
+title: Double Hound
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+exclude:
+  - README.md
+layouts_dir: shared/_layouts

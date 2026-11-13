@@ -1,0 +1,13 @@
+---
+layout: default
+hero: true
+---
+<main class="hero">
+<img src="/shared/double-hound-mark.png" alt="Double Hound logo">
+<h1>Double <b>Hound</b></h1>
+<p>Small games, made in New York.</p>
+<ul class="games">
+{% assign games = site.pages | where_exp: "p", "p.game" | sort: "game" %}
+{% for p in games %}<li><strong>{{ p.game }}</strong> · <a href="{{ p.url }}">Privacy policy</a></li>
+{% endfor %}</ul>
+</main>
