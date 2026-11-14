@@ -8,7 +8,7 @@ permalink: /go-chess/privacy/
 
 # Privacy Policy for Go Chess
 
-**Effective date:** November 13, 2026
+**Effective date:** November 14, 2026
 
 This policy explains what information Go Chess (the "app") collects when you play, how it is used, and the choices you have. The app is made by Double Hound, the name under which David J. Heberle makes games. Double Hound runs the app and its game server ("we", "us"). If you have any questions, email us at dev@doublehound.com.
 
@@ -62,6 +62,7 @@ We don't use your information for advertising or profiling, and we don't sell it
 
 - **Other players.** Your display name, whether you're connected, and the moves and result of any game you play are visible to your opponent and to anyone watching that game.
 - **Our hosting provider.** The game server and database run on [Fly.io](https://fly.io), which stores and processes data on our behalf in the United States. They may not use it for their own purposes.
+- **Our backup service.** Each night, a job run on [GitHub](https://github.com) copies the database over an encrypted connection, encrypts the copy with a key only we hold, and stores it with GitHub in the United States. GitHub processes this data on our behalf, and can't read the stored backups.
 - **When the law requires it.** We may disclose information if required by law, or to protect the safety of players or the service.
 
 We don't share your information with anyone else.
