@@ -114,7 +114,8 @@ If we change this policy, we'll post the new version at this address and update 
 
 ## Contact
 
-Questions about this policy or your information? Email [dev@doublehound.com](mailto:dev@doublehound.com).
+Questions about this policy or your information?<br>
+[dev@doublehound.com](mailto:dev@doublehound.com)
 
 **Double Hound**<br>
 Rochester, NY, USA<br>
