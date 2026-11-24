@@ -117,5 +117,5 @@ If we change this policy, we'll post the new version at this address and update 
 Questions about this policy or your information? Email [dev@doublehound.com](mailto:dev@doublehound.com).
 
 **Double Hound**<br>
-New York, USA<br>
+Rochester, NY, USA<br>
 [doublehound.com](https://doublehound.com)
