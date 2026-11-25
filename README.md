@@ -25,6 +25,10 @@ Every `## Heading` gets a link anchor made from its text, so `## Deleting your a
 
 Edit the game's `privacy.md`, update its effective date, and commit.
 
+## Status page
+
+`status/index.html` sends https://doublehound.com/status to the public UptimeRobot status page (https://stats.uptimerobot.com/JvniPlppvL). GitHub Pages can't do server redirects, so it's an instant meta-refresh. One status page covers every Double Hound game; add new games' monitors to it in UptimeRobot. To point somewhere else, change the URL in that file (it appears four times).
+
 ## Files
 
 - `shared/` holds everything the pages share: the page templates (`shared/_layouts/`), the style (`shared/site.css`), the logo and the icons.
