@@ -42,6 +42,9 @@ check "https://$D/no-such-page" 404
 check "http://$D/" 301 "https://$D/"
 check "https://www.$D/" 301 "https://$D/"
 check "https://davidjheberle.github.io/doublehound-site/" 301 "https://$D/"
+check "https://$D/status" 301 "https://$D/status/"
+curl -s --max-time 15 "https://$D/status/" | grep -q 'url=https://stats.uptimerobot.com/JvniPlppvL' \
+  && ok "/status/ redirects to the UptimeRobot status page" || bad "/status/ redirect to UptimeRobot missing"
 curl -s --max-time 15 "https://$D/go-chess/privacy/" | grep -q 'id="deleting-your-account"' \
   && ok "#deleting-your-account anchor present" || bad "#deleting-your-account anchor missing"
 
